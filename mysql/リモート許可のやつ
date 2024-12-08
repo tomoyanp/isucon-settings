@@ -1,0 +1,6 @@
+grant all privileges on *.* to isucon@"%" identified by 'isucon';
+
+
+CREATE USER 'isucon'@'%' IDENTIFIED BY 'isucon';
+GRANT ALL PRIVILEGES ON *.* TO 'isucon'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;

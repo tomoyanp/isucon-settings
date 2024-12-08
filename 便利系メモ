@@ -1,0 +1,8 @@
+alpのオプション
+sudo alp -r --avg -f /var/log/nginx/access.log --aggregates='/api/chair/rides/[0-9a-zA-z]+/status$, /api/app/rides/[0-9a-zA-Z]+/evaluation$'
+
+
+isucrud
+1. goのプロジェクトルートにいく
+2. isucrud ./...
+3. dbdoc.mdをMermaidでプレビューする
